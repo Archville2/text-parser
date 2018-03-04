@@ -1,0 +1,101 @@
+2018-03-04 15:49:27 DEBUG TextReader:33 - read 84 bytes from file files/text.txt done.
+2018-03-04 15:49:27 DEBUG ParagraphParser:30 - added: 	First paragraph. Second sentence in 1 paragraph.
+
+2018-03-04 15:49:27 DEBUG SentenceParser:31 - added: 	First paragraph.
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: 	First 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: 	 as divider
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: F as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: i as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: s as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: t as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: paragraph.
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: p as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: g as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: p as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: h as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: . as symbol
+2018-03-04 15:49:27 DEBUG SentenceParser:31 - added:  Second sentence in 1 paragraph.
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added:  Second 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: S as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: c as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: o as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: d as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: sentence 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: s as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: t as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: c as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: in 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: i as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: 1 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: 1 as digit
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: paragraph.
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: p as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: g as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: p as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: h as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: . as symbol
+2018-03-04 15:49:27 DEBUG ParagraphParser:30 - added: 	Second paragraph. Last sentence.
+2018-03-04 15:49:27 DEBUG SentenceParser:31 - added: 	Second paragraph.
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: 	Second 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: 	 as divider
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: S as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: c as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: o as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: d as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: paragraph.
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: p as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: g as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: r as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: p as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: h as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: . as symbol
+2018-03-04 15:49:27 DEBUG SentenceParser:31 - added:  Last sentence.
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added:  Last 
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: L as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: a as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: s as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: t as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added:   as divider
+2018-03-04 15:49:27 DEBUG LexemeParser:31 - added: sentence.
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: s as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: t as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: n as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: c as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: e as character
+2018-03-04 15:49:27 DEBUG EntityParser:48 - added: . as symbol

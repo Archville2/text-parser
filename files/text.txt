@@ -1,2 +1,2 @@
-	First sentence.
-	Second paragraph.
+	First paragraph. Second sentence in 1 paragraph.
+	Second paragraph. Last sentence.
