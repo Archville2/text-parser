@@ -28,7 +28,7 @@ public class SentenceParser extends ChainParser {
 			Element elementSentence = new CompositeElement(TextElements.SENTENCE);
 			
 			String sentence = matcher.group();
-			LOGGER.debug("added: " + sentence);
+			LOGGER.debug("added: " + sentence + " as sentence");
 			elementParagraph.addElement(this.getSuccessor().parse(elementSentence, sentence));
 		}
 		return elementParagraph;

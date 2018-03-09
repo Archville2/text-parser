@@ -45,7 +45,7 @@ public class EntityParser extends ChainParser {
 				elementLeaf = new LeafElement(LeafElements.SYMBOL, entity.charAt(0));
 			}
 
-			LOGGER.debug("added: " + entity + " as " + entityType);
+			//LOGGER.debug("added: " + entity + " as " + entityType);
 			elementLexeme.addElement(elementLeaf);
 		}
 		return elementLexeme;

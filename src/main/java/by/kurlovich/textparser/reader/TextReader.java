@@ -11,9 +11,9 @@ import org.apache.logging.log4j.Logger;
 import by.kurlovich.textparser.exception.FileProblemException;
 
 /**
- * read file with points for the shape
+ * class for reading files.
  * @param 	fileName	file name with path. Must be a txt file.
- * @return 				array of string lines.
+ * @return 				string with readed text.
  */
 
 public class TextReader {

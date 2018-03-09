@@ -15,7 +15,7 @@ public class ParagraphParser extends ChainParser {
 	private final static String PARAGRAPH_PARSE_REGEX = "\\t[^\\t]+";
 	
 	public ParagraphParser(ChainParser successor) {
-		this.setSuccessor(successor);
+		super.setSuccessor(successor);
 	}
 	
 	@Override
@@ -24,11 +24,11 @@ public class ParagraphParser extends ChainParser {
 		Matcher matcher = pattern.matcher(text);
 		
 		while (matcher.find()) {
-			CompositeElement elementParagraph = new CompositeElement(TextElements.PARAGRAPH);
-			
 			String paragraph = matcher.group();
-			LOGGER.debug("added: " + paragraph);
-			elementText.addElement(this.getSuccessor().parse(elementParagraph, paragraph));
+			Element elementParagraph = new CompositeElement(TextElements.PARAGRAPH);
+			
+			LOGGER.debug("added: " + paragraph + " as paragraph");
+			elementText.addElement(super.getSuccessor().parse(elementParagraph, paragraph));
 		}
 		return elementText;
 	}
