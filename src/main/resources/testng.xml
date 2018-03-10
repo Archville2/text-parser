@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Suite" verbose="1" >
+  <test name="Unit Level Test" >
+    <classes>
+    	<class name="by.kurlovich.textparser.reader.XMLReaderTest" />
+    	<class name="by.kurlovich.textparser.interpreter.ClientTest" />
+    	<class name="by.kurlovich.textparser.parser.ParagraphParserTest" />
+    	<class name="by.kurlovich.textparser.parser.SentenceParserTest" />
+    	<class name="by.kurlovich.textparser.parser.LexemeParserTest" />
+    	<class name="by.kurlovich.textparser.parser.EntityParserTest" />
+    	<class name="by.kurlovich.textparser.parser.SpaceInsertorTest" />
+    	<class name="by.kurlovich.textparser.polska.PolishAlgoritmTest" />
+    	<class name="by.kurlovich.textparser.sort.SortByCharCountTest" />
+    	<class name="by.kurlovich.textparser.sort.SortByLexemeLengthTest" />
+    	<class name="by.kurlovich.textparser.sort.SortBySentenceCountTest" />
+    </classes>
+  </test>
+</suite>

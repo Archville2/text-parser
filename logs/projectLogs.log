@@ -1,4 +1,21 @@
-2018-03-10 18:29:50 DEBUG EntityParser:48 - added: a as character
-2018-03-10 18:29:50 DEBUG EntityParser:48 - added: b as character
-2018-03-10 18:29:50 DEBUG EntityParser:48 - added: c as character
-2018-03-10 18:29:50 DEBUG EntityParser:48 - added: d as character
+2018-03-11 00:26:37 DEBUG ParagraphParser:31 - added: 	First paragraph. First sentence.
+ as paragraph
+2018-03-11 00:26:37 DEBUG ParagraphParser:31 - added: 	Second paragraph.
+ as paragraph
+2018-03-11 00:26:37 DEBUG ParagraphParser:31 - added: 	Third paragraph. as paragraph
+2018-03-11 00:26:37 DEBUG SentenceParser:31 - added: 	First paragraph. as sentence
+2018-03-11 00:26:37 DEBUG SentenceParser:31 - added:  First sentence. as sentence
+2018-03-11 00:26:37 DEBUG SentenceParser:31 - added: 	Second paragraph. as sentence
+2018-03-11 00:26:37 DEBUG SentenceParser:31 - added: 	Third paragraph. as sentence
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: 	First  as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: paragraph. as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added:  First  as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: sentence. as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: 	Second  as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: paragraph. as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: 	Third  as lexeme
+2018-03-11 00:26:37 DEBUG LexemeParser:41 - added: paragraph. as lexeme
+2018-03-11 00:26:37 DEBUG EntityParser:48 - added: a as character
+2018-03-11 00:26:37 DEBUG EntityParser:48 - added: b as character
+2018-03-11 00:26:37 DEBUG EntityParser:48 - added: c as character
+2018-03-11 00:26:37 DEBUG EntityParser:48 - added: d as character

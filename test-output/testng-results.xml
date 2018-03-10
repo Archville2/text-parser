@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Suite" duration-ms="773" started-at="2018-03-10T21:26:36Z" finished-at="2018-03-10T21:26:37Z">
+    <groups>
+    </groups>
+    <test name="Unit Level Test" duration-ms="773" started-at="2018-03-10T21:26:36Z" finished-at="2018-03-10T21:26:37Z">
+      <class name="by.kurlovich.textparser.interpreter.ClientTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.interpreter.ClientTest@5419f379]" name="setUp" is-config="true" duration-ms="17" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="interpreterTest()[pri:0, instance:by.kurlovich.textparser.interpreter.ClientTest@5419f379]" name="interpreterTest" duration-ms="4" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interpreterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.interpreter.ClientTest@5419f379]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.interpreter.ClientTest -->
+      <class name="by.kurlovich.textparser.sort.SortByCharCountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.sort.SortByCharCountTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="5" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="charCountSortTest()[pri:0, instance:by.kurlovich.textparser.sort.SortByCharCountTest@2a2d45ba]" name="charCountSortTest" duration-ms="1" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- charCountSortTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.sort.SortByCharCountTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.sort.SortByCharCountTest -->
+      <class name="by.kurlovich.textparser.polska.PolishAlgoritmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.polska.PolishAlgoritmTest@7c16905e]" name="setUp" is-config="true" duration-ms="4" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="algoritmTest()[pri:0, instance:by.kurlovich.textparser.polska.PolishAlgoritmTest@7c16905e]" name="algoritmTest" duration-ms="1" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- algoritmTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.polska.PolishAlgoritmTest@7c16905e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.polska.PolishAlgoritmTest -->
+      <class name="by.kurlovich.textparser.reader.XMLReaderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.reader.XMLReaderTest@4520ebad]" name="setUp" is-config="true" duration-ms="7" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="readerTest()[pri:0, instance:by.kurlovich.textparser.reader.XMLReaderTest@4520ebad]" name="readerTest" duration-ms="430" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.reader.XMLReaderTest@4520ebad]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.reader.XMLReaderTest -->
+      <class name="by.kurlovich.textparser.sort.SortBySentenceCountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.sort.SortBySentenceCountTest@20e2cbe0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SortParagraphBySentenceCountTest()[pri:0, instance:by.kurlovich.textparser.sort.SortBySentenceCountTest@20e2cbe0]" name="SortParagraphBySentenceCountTest" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortParagraphBySentenceCountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.sort.SortBySentenceCountTest@20e2cbe0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.sort.SortBySentenceCountTest -->
+      <class name="by.kurlovich.textparser.parser.EntityParserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.parser.EntityParserTest@548a9f61]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paragraphTest()[pri:0, instance:by.kurlovich.textparser.parser.EntityParserTest@548a9f61]" name="paragraphTest" duration-ms="2" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paragraphTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.parser.EntityParserTest@548a9f61]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.parser.EntityParserTest -->
+      <class name="by.kurlovich.textparser.parser.ParagraphParserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.parser.ParagraphParserTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="240" started-at="2018-03-11T00:26:36Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paragraphTest()[pri:0, instance:by.kurlovich.textparser.parser.ParagraphParserTest@7dc7cbad]" name="paragraphTest" duration-ms="9" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paragraphTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.parser.ParagraphParserTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.parser.ParagraphParserTest -->
+      <class name="by.kurlovich.textparser.parser.SpaceInsertorTest">
+        <test-method status="PASS" signature="insertorTest()[pri:0, instance:by.kurlovich.textparser.parser.SpaceInsertorTest@1753acfe]" name="insertorTest" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertorTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.parser.SpaceInsertorTest@1753acfe]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.parser.SpaceInsertorTest@1753acfe]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.parser.SpaceInsertorTest -->
+      <class name="by.kurlovich.textparser.sort.SortByLexemeLengthTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.sort.SortByLexemeLengthTest@2a5ca609]" name="setUp" is-config="true" duration-ms="4" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SortSentencesByLexemeLengthTest()[pri:0, instance:by.kurlovich.textparser.sort.SortByLexemeLengthTest@2a5ca609]" name="SortSentencesByLexemeLengthTest" duration-ms="1" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortSentencesByLexemeLengthTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.sort.SortByLexemeLengthTest@2a5ca609]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.sort.SortByLexemeLengthTest -->
+      <class name="by.kurlovich.textparser.parser.LexemeParserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.parser.LexemeParserTest@4f933fd1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paragraphTest()[pri:0, instance:by.kurlovich.textparser.parser.LexemeParserTest@4f933fd1]" name="paragraphTest" duration-ms="11" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paragraphTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.parser.LexemeParserTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.parser.LexemeParserTest -->
+      <class name="by.kurlovich.textparser.parser.SentenceParserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.kurlovich.textparser.parser.SentenceParserTest@d2cc05a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="paragraphTest()[pri:0, instance:by.kurlovich.textparser.parser.SentenceParserTest@d2cc05a]" name="paragraphTest" duration-ms="1" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paragraphTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.kurlovich.textparser.parser.SentenceParserTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-11T00:26:37Z" finished-at="2018-03-11T00:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.kurlovich.textparser.parser.SentenceParserTest -->
+    </test> <!-- Unit Level Test -->
+  </suite> <!-- Sample Suite -->
+</testng-results>
