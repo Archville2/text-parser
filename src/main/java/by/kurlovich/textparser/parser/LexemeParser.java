@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import by.kurlovich.textparser.calculator.CalculateLexeme;
 import by.kurlovich.textparser.store.CompositeElement;
 import by.kurlovich.textparser.store.Element;
+import by.kurlovich.textparser.store.LeafElement;
 import by.kurlovich.textparser.store.TextElements;
 
 public class LexemeParser extends ChainParser {
@@ -35,10 +36,15 @@ public class LexemeParser extends ChainParser {
 
 			Matcher mathMatcher = mathPattern.matcher(lexeme);
 			if (mathMatcher.find()) {
-				lexeme = calculator.calculate(lexeme);
+				lexeme = calculator.calculate(lexeme) + " ";
 			}
 			LOGGER.debug("added: " + lexeme + " as lexeme");
-			elementSentence.addElement(this.getSuccessor().parse(elementLexeme, lexeme));
+
+			if (super.getSuccessor() != null) {
+				elementSentence.addElement(this.getSuccessor().parse(elementLexeme, lexeme));
+			} else {
+				elementSentence.addElement(new LeafElement(TextElements.LEXEME, lexeme));
+			}
 		}
 		return elementSentence;
 	}

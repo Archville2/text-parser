@@ -3,11 +3,11 @@ package by.kurlovich.textparser.store;
 import java.util.List;
 
 public class LeafElement implements Element {
-	private LeafElements leafElement;
-	private char entity;
+	private TextElements textElement;
+	private String entity;
 
-	public LeafElement(LeafElements leafElement, char entity) {
-		this.leafElement = leafElement;
+	public LeafElement(TextElements textElement, String entity) {
+		this.textElement = textElement;
 		this.entity = entity;
 	}
 
@@ -23,12 +23,12 @@ public class LeafElement implements Element {
 	
 	@Override
 	public String getTextElement () {
-		return leafElement.name();
+		return textElement.name();
 	}	
 
 	@Override
-	public void printSequence(String param) {
-		if (leafElement.equals(param.toUpperCase())) {
+	public void formElementList(SearchResultList result, String param) {
+		if (textElement.equals(param.toUpperCase())) {
 			System.out.println(param + " found");
 		}
 	}

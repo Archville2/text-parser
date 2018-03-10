@@ -11,12 +11,12 @@ public class CompositeElement implements Element {
 		this.textElement = textElement;
 	}
 
-	public void processRequest(Element el) {
-		String result = "";
+	public void processRequest(SearchResultList result, Element el) {
+		String str = "";
 		for (Element element : el.getElementList()) {
-			result += element.toString();
+			str += element.toString();
 		}
-		System.out.println(result);
+		result.addString(str);
 	}
 
 	@Override
@@ -25,12 +25,12 @@ public class CompositeElement implements Element {
 	}
 
 	@Override
-	public void printSequence(String param) {
+	public void formElementList(SearchResultList result, String param) {
 		for (Element element : elementList) {
 			if (element.getTextElement().equals(param.toUpperCase())) {
-				processRequest(element);
+				processRequest(result, element);
 			} else {
-				element.printSequence(param);
+				element.formElementList(result, param);
 			}
 		}
 	}

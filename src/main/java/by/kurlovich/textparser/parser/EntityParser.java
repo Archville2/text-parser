@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 import by.kurlovich.textparser.store.Element;
 import by.kurlovich.textparser.store.LeafElement;
-import by.kurlovich.textparser.store.LeafElements;
+import by.kurlovich.textparser.store.TextElements;
 
 public class EntityParser extends ChainParser {
 	private final static Logger LOGGER = LogManager.getLogger();
@@ -33,19 +33,19 @@ public class EntityParser extends ChainParser {
 
 			switch (entityType) {
 			case "character":
-				elementLeaf = new LeafElement(LeafElements.CHARACTER, entity.charAt(0));
+				elementLeaf = new LeafElement(TextElements.CHARACTER, entity);
 				break;
 			case "digit":
-				elementLeaf = new LeafElement(LeafElements.DIGIT, entity.charAt(0));
+				elementLeaf = new LeafElement(TextElements.DIGIT, entity);
 				break;
 			case "divider":
-				elementLeaf = new LeafElement(LeafElements.DIVIDER, entity.charAt(0));
+				elementLeaf = new LeafElement(TextElements.DIVIDER, entity);
 				break;
 			default:
-				elementLeaf = new LeafElement(LeafElements.SYMBOL, entity.charAt(0));
+				elementLeaf = new LeafElement(TextElements.SYMBOL, entity);
 			}
 
-			//LOGGER.debug("added: " + entity + " as " + entityType);
+			LOGGER.debug("added: " + entity + " as " + entityType);
 			elementLexeme.addElement(elementLeaf);
 		}
 		return elementLexeme;

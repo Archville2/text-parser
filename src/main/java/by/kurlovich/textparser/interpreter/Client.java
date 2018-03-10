@@ -2,7 +2,6 @@ package by.kurlovich.textparser.interpreter;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Client {
 	private List<AbstractMathExpression> listExpression;
@@ -17,7 +16,6 @@ public class Client {
 			if (lexeme.isEmpty()) {
 				continue;
 			}
-			//char temp = lexeme.charAt(0);
 			switch (lexeme) {
 			case "+":
 				listExpression.add(new TerminalExpressionPlus());
@@ -39,7 +37,7 @@ public class Client {
 
 	public Number calculate() {
 		Context context = new Context();
-		// выполнение простых задач и сборка результата
+
 		for (AbstractMathExpression terminal : listExpression) {
 			terminal.interpret(context);
 		}

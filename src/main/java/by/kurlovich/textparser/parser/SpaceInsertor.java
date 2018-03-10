@@ -3,10 +3,10 @@ package by.kurlovich.textparser.parser;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SpaceInjector {
+public class SpaceInsertor {
 	private final static String MATH_EXPRESSION_REGEX = "((\\d*\\.\\d+)|(\\d+)|([\\+\\-\\*\\/\\(\\)]))";
 
-	public String inject(String text) {
+	public String insert(String text) {
 		String result = "";
 		String previous = "";
 		String current;
